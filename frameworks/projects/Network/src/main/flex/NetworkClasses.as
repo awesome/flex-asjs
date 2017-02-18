@@ -18,18 +18,18 @@
 ////////////////////////////////////////////////////////////////////////////////
 package
 {   
-
-/**
- *  @private
- *  This class is used to link additional classes into rpc.swc
- *  beyond those that are found by dependecy analysis starting
- *  from the classes specified in manifest.xml.
- */
-internal class NetworkClasses
-{	
-    import org.apache.flex.net.URLBinaryLoader; URLBinaryLoader;
-	import org.apache.flex.net.HTTPConstants; HTTPConstants;
-}
-
+    /**
+    *  @private
+    *  This class is used to link additional classes into Network.swc
+    *  beyond those that are found by dependecy analysis starting
+    *  from the classes specified in manifest.xml.
+    */
+    internal class NetworkClasses
+    {	
+        import org.apache.flex.net.URLBinaryLoader; URLBinaryLoader;
+        import org.apache.flex.net.HTTPConstants; HTTPConstants;
+        import org.apache.flex.net.events.ResultEvent; ResultEvent;
+        import org.apache.flex.net.events.FaultEvent; FaultEvent;
+    }
 }
 
